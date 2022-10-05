@@ -5,7 +5,7 @@ An Open-Source, synthetic transtibial residual limb anatomic dataset
 License
 --------
 
-This dataset uses a Creative Commons Attribution Share Alike 4.0 International license, which can be found here [here](../main/LICENSE)
+This dataset uses a Creative Commons Attribution Share Alike 4.0 International license, which can be found [here](../main/LICENSE)
 
 How to acknowledge
 ------------------
