@@ -34,6 +34,7 @@ Ethical Approvals
 --------
 
 This secondary data analysis work was granted ethical approval by the University of Southampton's Ethics and Research Governance Office (ERGO 65748.A1)
+
 Original MRI data collection work was granted ethical approval by the following committees:
 - Fraunhofer IPA Biomechanics Laboratory (2016_BLM_0009)
 - the University of Southampton's Ethics and Research Governance Office (ERGO 41864.A1, ERGO 29927)
