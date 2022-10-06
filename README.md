@@ -26,8 +26,18 @@ Funding
 --------
 
 The research behind this dataset was funded by the following organisations:
-- the Royal Academy of Engineering (RAEng), UK (grant no. RF/130, Principal Investigator A Dickinson)
-- the Engineering & Physical Sciences Research Council (EPSRC) Centre for Doctoral Training in Prosthetics & Orthotics (grant no. EP/S02249X/1, Doctoral Researcher F Sunderland)
+- the Royal Academy of Engineering (RAEng), UK (grant no. RF/130 (A Dickinson))
+- the Engineering & Physical Sciences Research Council (EPSRC), UK (grant nos. EP/S02249X/1 (F Sunderland), EP/N509747/1 (J Bramley), EP/M508147/1 (J Steer))
+- the European Union 'Eurostars' programme (grant no. 9396 (A Dickinson & J Steer))
+
+Ethical Approvals
+--------
+
+This secondary data analysis work was granted ethical approval by the University of Southampton's Ethics and Research Governance Office (ERGO 65748.A1)
+Original MRI data collection work was granted ethical approval by the following committees:
+- Fraunhofer IPA Biomechanics Laboratory (2016_BLM_0009)
+- the University of Southampton's Ethics and Research Governance Office (ERGO 41864.A1, ERGO 29927)
+- the Southern Adelaide Clinical Human Research Ethics Committee (HREC/18/SAC/225)
 
 License
 --------
