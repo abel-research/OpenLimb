@@ -8,12 +8,16 @@ There are over 5,000 new lower limb amputations every year in the UK, and a majo
 
 Many patient anatomy, surgery and disease factors can influence the socket design; however, few researchers have access to volumetric medical imaging data required to perform biomechanical analysis of socket designs. 
 
-openlimb is a resource which contains a statistical description of transtibial amputated residual limbs based upon MRI scan data collected by the University of Southampton, UK, and Flinders University, Australia, in ethically-approved research projects. These descriptions include the external surface of the residual limb, the distal femur, patella, and residual tibia and fibula.
-
-The Machine Learning method Principal Component Analysis (PCA) has been used to reduce the dimensionality of this anatomic dataset to generate a mean residual limb shape, and independent modes of shape variation (Figure 1, below). As such, the dataset describes the anatomic variation across the training dataset without including any identifiable representation of the individuals.
+openlimb is a resource which contains a statistical description of transtibial amputated residual limbs based upon MRI scan data collected by the University of Southampton, UK, and Flinders University, Australia, in ethically-approved research projects. These descriptions include the external surface of the residual limb, the distal femur, patella, and residual tibia and fibula  (Figure 1, below).
 
 <p align="center">
-  <img src="../main/abstract/Modes1and2.png" alt="A graphical summary of the mean limb shape and its variation in the first two principal modes" width="500"/>
+  <img src="../main/abstract/Process.png" alt="Generating a transtibial residual limb Statistical Shape Model from MRI data (1), segmented, aligned and registered (2) to produce a mean shape (3) and principal modes of shape variability (4) shown in anterior and lateral views, with associated variance %" width="600"/>
+</p>
+
+The Machine Learning method Principal Component Analysis (PCA) has been used to reduce the dimensionality of this anatomic dataset to generate a mean residual limb shape, and independent modes of shape variation (Figure 2, below). As such, the dataset describes the anatomic variation across the training dataset without including any identifiable representation of the individuals.
+
+<p align="center">
+  <img src="../main/abstract/Modes1and2.png" alt="Creating example virtual individuals from the mean limb shape and its variation in the first two principal modes" width="250"/>
 </p>
 
 This dataset is intended to allow the research community to perform more statistically robust prosthetic biomechanics research, without the costs, inconvenience, and risk of putting our relatively small community of eligible research participants through medical imaging.
@@ -52,4 +56,4 @@ How to acknowledge
 openlimb has been submitted for publication at the 2023 International Society for Prosthetics & Orthotics World Congress, for which the abstract will be included in the journal Prosthetics & Orthotics International. Please check back here in time, for a doi and full reference for you to cite if you use the dataset. 
 
 Please cite as:
-Sunderland et al., (2023). openlimb: [https://github.com/abel-research/openlimb](https://github.com/abel-research/openlimb).
+Sunderland et al., (2023), openlimb: an Open Source Transtibial Residual Limb Model for Simulation and Design [https://github.com/abel-research/openlimb](https://github.com/abel-research/openlimb).
