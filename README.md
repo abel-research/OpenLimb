@@ -56,4 +56,4 @@ How to acknowledge
 openlimb has been submitted for publication at the 2023 International Society for Prosthetics & Orthotics World Congress, for which the abstract will be included in the journal Prosthetics & Orthotics International. Please check back here in time, for a doi and full reference for you to cite if you use the dataset. 
 
 Please cite as:
-Sunderland et al., (2023), openlimb: an Open Source Transtibial Residual Limb Model for Simulation and Design [https://github.com/abel-research/openlimb](https://github.com/abel-research/openlimb).
+F.E. Sunderland, J.L. Bramley, R.M.A. Al-Dirini, J.W. Steer & A.S. Dickinson (2023), openlimb: an Open Source Transtibial Residual Limb Model for Simulation and Design [https://github.com/abel-research/openlimb](https://github.com/abel-research/openlimb).
