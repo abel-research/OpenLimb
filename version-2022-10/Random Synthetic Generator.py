@@ -9,7 +9,7 @@ The eigenvalues (components) for each eigenvector controls the variation of each
 This script generates 100 possible values for each eigenvalue which are evenly spaced between the max and min eigenvalues for
 each mode found in the training data
 The script randomnly selects one of these values for each mode and uses these to generate a model
-100^10 possible generations exist
+100^10 possible generations exist 
 
 The random generated model will be in its size normalised state
 To create a 'real' size model a uniform scaling will need to be applied
@@ -76,7 +76,7 @@ component10 = random.choice(np.linspace(0.65234080,-0.39862027, 100))
 #%%
 
 synthetic = copy.deepcopy(mean)
-synthetic.vert = mean.vert + (mode1*component1).reshape([46665,3]) + (mode2*component2).reshape([46665,3]) + (mode3*component3).reshape([46665,3]) + (mode4*component4).reshape([46665,3]) + (mode5*component5).reshape([46665,3]) + (mode6*component6).reshape([46665,3]) + (mode7*component7).reshape([46665,3]) + (mode8*component8).reshape([46665,3]) + (mode9*component9).reshape([46665,3]) + (mode10*component10).reshape([46665,3])
+synthetic.vert = mean.vert + (mode1*component1).reshape([98412,3]) + (mode2*component2).reshape([98412,3]) + (mode3*component3).reshape([98412,3]) + (mode4*component4).reshape([98412,3]) + (mode5*component5).reshape([98412,3]) + (mode6*component6).reshape([98412,3]) + (mode7*component7).reshape([98412,3]) + (mode8*component8).reshape([98412,3]) + (mode9*component9).reshape([98412,3]) + (mode10*component10).reshape([98412,3])
 #synthetic.vert = (synthetic.vert)* [scale factor]
 
 
