@@ -16,7 +16,7 @@ This script allows for generation of synthetic residual limbs using the mode eig
 The eigenvalues (components) for each eigenvector controls the variation of each models shape from mean
 
 Latter modes may be biased by the small training sample so have been commented out
-but can be introduced to the random generated model if desired by uncommenting line 102
+but can be introduced to the random generated model if desired by uncommenting line 103
 
 The current PCA model produces some mode combinations that result in limbs that are not anatomically possible
 To combat this a skin only PCA model has been produced to generate the initial random shape
@@ -28,15 +28,15 @@ The predicted eigenvalues and full model eigenvectors are then used to generate 
 
 The random generated model will be in its size normalised state
 To create a 'real' size model a uniform scaling will need to be applied
-To do this line 103 can be uncommented and [scale factor] replaced with the scale factor desired
+To do this line 104 can be uncommented and [scale factor] replaced with the scale factor desired
 The scale factor should represent the length of the complete (unamputated) tibia for the subject
 Suggested value is 38.3076923 (average of the training data)
 
 
-Include path to full mode eigenvectors (modes) as described in line 88
-and Save path desired as described in line 131/134
-Path to size normalised mean shape should be included in line 59
-Path to linear regression pickled model should be included in line 82
+Include path to full mode eigenvectors (modes) as described in line 89
+and Save path desired as described in line 129/132
+Path to size normalised mean shape should be included in line 55
+Path to linear regression pickled model should be included in line 83
 
 """
 
