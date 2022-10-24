@@ -10,6 +10,7 @@ Size Normalised Mean Limb shape (STL)
 Full Statistical shape model modes (NPY)
 Linear Regression Model (PKL)
 
+The module ampscan should be installed to run this details can be found here https://ampscan.readthedocs.io/en/latest/
 
 This script allows for generation of synthetic residual limbs using the mode eigenvectors from the statistical shape model 
 The eigenvalues (components) for each eigenvector controls the variation of each models shape from mean
