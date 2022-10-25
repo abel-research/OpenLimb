@@ -21,8 +21,8 @@ eigenvalues for each mode found in the training data. It then perturbs the mean 
 
 As such, in this preliminary model, 100^10 possible generations exist. 
 However, at first release (2022-10) only the first four modes of variation are used. 
-Later modes may be biased by the small training sample so have been commented out but can be introduced 
-to the random generation model if desired by uncommenting line 93. This will be resolved in a future release.
+Later modes may be biased by the small training sample so have been commented out but each can be introduced 
+to the random generation model if desired by uncommenting any of lines 95-100. This will be resolved in a future release.
 
 The current PCA model produces some mode combinations that result in limbs that are not anatomically possible
 To combat this a skin-only PCA model has been produced to generate the initial random shape
@@ -31,16 +31,16 @@ The predicted eigenvalues and full model eigenvectors are then used to generate 
 
 The random generated model is in a size-normalised state.
 To create a 'real' size model a uniform scaling should be applied.
-To do this line 94 can be uncommented and [scale factor] replaced with the scale factor desired
+To do this line 103 can be uncommented and (scale factor) replaced with the scale factor desired
 The scale factor represents the desired length of the intact (unamputated) tibia for the subject
-Suggested value is 383 (average of the training data in mm), though this can also be randomised.
-The training data estimated intact tibia length range was XXX - XXX mm.
+Suggested value is 383 (average of the training data in mm), though this can also be randomised (line 102).
+The training data estimated intact tibia length range was 342.8 - 439.8 mm.
 
 Include:
 - path to full mode eigenvectors (modes) as described in line 79
 - path to size normalised mean shape should be included in line 57
 - path to linear regression pickled model should be included in line 74, and
-- save path desired as described in line 119/122
+- save path desired as described in line 128/131
 
 """
 
@@ -89,9 +89,18 @@ mode8 = X[:,7]
 mode9 = X[:,8]
 mode10 = X[:,9]
 synthetic = copy.deepcopy(mean)
-synthetic.vert = mean.vert + (mode1*newcomponent[0]).reshape([98412,3]) + (mode2*newcomponent[1]).reshape([98412,3]) + (mode3*newcomponent[2]).reshape([98412,3]) + (mode4*newcomponent[3]).reshape([98412,3]) + (mode5*newcomponent[4]).reshape([98412,3]) + (mode6*newcomponent[5]).reshape([98412,3]) 
-#synthetic.vert = synthetic.vert + (mode7*newcomponent[6]).reshape([98412,3]) + (mode8*newcomponent[7]).reshape([98412,3]) + (mode9*newcomponent[8]).reshape([98412,3]) + (mode10*newcomponent[9]).reshape([98412,3])
-#synthetic.vert = (synthetic.vert)* [scale factor]
+r = np.shape(mean.vert)[0]
+
+synthetic.vert = mean.vert + (mode1*newcomponent[0]).reshape([r,3]) + (mode2*newcomponent[1]).reshape([r,3]) + (mode3*newcomponent[2]).reshape([r,3]) + (mode4*newcomponent[3]).reshape([r,3]) 
+#synthetic.vert = synthetic.vert + (mode5*newcomponent[4]).reshape([r,3])
+#synthetic.vert = synthetic.vert + (mode6*newcomponent[5]).reshape([r,3]) 
+#synthetic.vert = synthetic.vert + (mode7*newcomponent[6]).reshape([r,3])
+#synthetic.vert = synthetic.vert + (mode8*newcomponent[7]).reshape([r,3]) 
+#synthetic.vert = synthetic.vert + (mode9*newcomponent[8]).reshape([r,3])
+#synthetic.vert = synthetic.vert + (mode10*newcomponent[9]).reshape([r,3])
+
+#scale factor =  random.choice(np.linspace(342.8, 439.8 , 100))
+#synthetic.vert = (synthetic.vert)* (scale factor)
 
 synthetic.addActor()
 win = vtkRenWin()
