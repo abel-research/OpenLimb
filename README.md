@@ -49,6 +49,7 @@ License
 --------
 
 This dataset uses a Creative Commons Attribution Share Alike 4.0 International license, which can be found [here](../main/LICENSE)
+Share Alike means that if you remix, transform, or build upon the dataset, you must distribute your contributions under the same license.
 
 How to acknowledge
 ------------------
