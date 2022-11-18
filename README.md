@@ -1,8 +1,9 @@
 # OpenLimb
 An Open-Source transtibial residual limb anatomic dataset
 
-**License:** [![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)](../main/LICENSE)
 **DOI:** [![DOI](https://img.shields.io/badge/doi-TBC-brightgreen)](TBC)
+**Data License:** [![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)](../main/LICENSE)
+**Code License:** [![License](https://img.shields.io/badge/TBC-blueviolet)](../version-2022-10/LICENSE)
 
 There are over 5,000 new lower limb amputations every year in the UK, and a major challenge is rehabilitating people with amputations by enabling them to return to normal activities, using a prosthetic limb. However, the stump (or ‘residual limb’) is not initially suited for supporting the loads associated with standing or walking, and discomfort is common. The production of an appropriate patient-specific prosthetic socket is key, and today this is designed as a work of sculpture, by a highly experienced prosthetist. 
 
