@@ -1,7 +1,7 @@
 # OpenLimb: an Open Source Transtibial Residual Limb Model for Simulation and Design
-F.E. Sunderland<sup>1</sup>, J.L. Bramley<sup>1,2</sup>, R.M.A. Al-Dirini<sup>3</sup>, J.W. Steer<sup>1,2</sup>, A.S. Dickinson<sup>1</sup>
+F.E. Sunderland<sup>1</sup>, J.L. Bramley<sup>1,2</sup>, R.M.A. Al-Dirini<sup>3</sup>, J.W. Steer<sup>1,2</sup>, Dr Peter Worsley<sup>1</sup>, A.S. Dickinson<sup>1</sup>
 
-1 Faculty of Engineering & Physical Sciences, University of Southampton, Southampton, UK  
+1 University of Southampton, Southampton, UK  
 2 Radii Devices Ltd., Bristol, UK  
 3 College of Science & Engineering, Flinders University, Adelaide, Australia 
 
@@ -34,4 +34,4 @@ ERGO65748.A1, ERGO41864.A1, ERGO29927, 2016_BLM_0009, HREC/18/SAC/225.
 
 ## Acknowledgments and Funding: 
 RAEng (RF/130), EPSRC (EP/S02249X/1, EP/N509747/1, EP/M508147/1), and Alan Turing Institute (EP/N510129/1).  
-We acknowledge Dr Peter Worsley, imaging centres at University Hospital Southampton NHS Foundation Trust (Southampton, UK) and Radiologie im Zentrum (Augsburg, Germany), and our study participants.
+We acknowledge imaging centres at University Hospital Southampton NHS Foundation Trust (Southampton, UK) and Radiologie im Zentrum (Augsburg, Germany), and our study participants.
