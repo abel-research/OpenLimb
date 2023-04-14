@@ -1,7 +1,7 @@
 # OpenLimb
 An Open-Source transtibial residual limb anatomic dataset
 
-**DOI:** [![DOI](https://img.shields.io/badge/doi-TBC-brightgreen)](TBC)
+**DOI:** [![DOI](https://img.shields.io/badge/doi-10.1097/pxr.0000000000000240-brightgreen)](https://doi.org/10.1097/pxr.0000000000000240)
 **Data License:** [![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)](../main/DATA-LICENSE)
 **Code License:** [![License](https://img.shields.io/badge/license-MIT-blueviolet)](../main/CODE-LICENSE)
 
@@ -57,7 +57,7 @@ Share Alike means that if you remix, transform, or build upon the dataset, you m
 How to acknowledge
 ------------------
 
-OpenLimb has been submitted for publication at the 2023 International Society for Prosthetics & Orthotics World Congress, for which the abstract is likely to be included in the journal Prosthetics & Orthotics International. Please check back here in time, for a doi and full reference for you to cite if you use the dataset. 
+OpenLimb has been accepted for presentation at the 2023 International Society for Prosthetics & Orthotics World Congress, for which the abstract is published in a special issue of the journal Prosthetics & Orthotics International, available at https://doi.org/10.1097/pxr.0000000000000240. 
 
 Please cite as:
 F.E. Sunderland, J.L. Bramley, R.M.A. Al-Dirini, J.W. Steer, P.R. Worsley & A.S. Dickinson (2023), OpenLimb: an Open Source Transtibial Residual Limb Model for Simulation and Design [https://github.com/abel-research/openlimb](https://github.com/abel-research/OpenLimb).
