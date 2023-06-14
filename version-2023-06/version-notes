@@ -1,0 +1,5 @@
+Version 2023-06
+Updated with:
+* improved alignments between training datasets
+* vertical orientation of residual tibia principal axis
+* improved mesh registration giving oblique proximal cut in all datasets
