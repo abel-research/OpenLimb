@@ -1,4 +1,4 @@
-# OpenLimb
+# OpenLimbTT
 An Open-Source transtibial residual limb anatomic dataset
 
 **DOI:** [![DOI](https://img.shields.io/badge/doi-10.1101/2024.11.27.24317622-brightgreen)](https://doi.org/10.1101/2024.11.27.24317622)
@@ -9,7 +9,7 @@ There are over 5,000 new lower limb amputations every year in the UK, and a majo
 
 Many patient anatomy, surgery and disease factors can influence the socket design; however, few researchers have access to volumetric medical imaging data required to perform biomechanical analysis of socket designs. 
 
-OpenLimb is a resource which contains a statistical description of transtibial amputated residual limbs based upon MRI scan data collected by the University of Southampton, UK, Flinders University, Australia, and Imperial College, UK in ethically-approved research projects, and at the New Mexico Decedent Individuals Database, USA, based on CT images. These descriptions include the external surface of the residual limb, the distal femur, patella, and residual tibia and fibula  (Figure 1, below).
+OpenLimbTT is a resource which contains a statistical description of transtibial amputated residual limbs based upon MRI scan data collected by the University of Southampton, UK, Flinders University, Australia, and Imperial College, UK in ethically-approved research projects, and at the New Mexico Decedent Individuals Database, USA, based on CT images. These descriptions include the external surface of the residual limb, the distal femur, patella, and residual tibia and fibula  (Figure 1, below).
 
 <p align="center">
   <img src="../main/abstract/Process.png" alt="Generating a transtibial residual limb Statistical Shape Model from medical imaging data (1), segmented, aligned and registered (2) to produce a mean shape (3) and principal modes of shape variability (4) shown in anterior and lateral views, with associated variance %" width="600"/>
@@ -72,7 +72,7 @@ Share Alike means that if you remix, transform, or build upon the dataset, you m
 How to acknowledge
 ------------------
 
-OpenLimb has been presented at the 2023 International Society for Prosthetics & Orthotics World Congress, and a preprint of a full journal paper is currently under peer review. Please cite as:
+OpenLimbTT has been presented at the 2023 International Society for Prosthetics & Orthotics World Congress, and a preprint of a full journal paper is currently under peer review. Please cite as:
 
 F.E. Sunderland, A.J. Sobey, J.L. Bramley, J.W. Steer, R. Al-Dirini, C.D. Metcalf, the OpenLimb Group, P.R. Worsley, A.S. Dickinson (2024), OpenLimbTT, a Transtibial Residual Limb Shape Model for Prosthetics Simulation and Design: creating a statistical anatomic model using sparse data. medRxiv 2024.11.27.24317622; doi: [https://doi.org/10.1101/2024.11.27.24317622](https://doi.org/10.1101/2024.11.27.24317622), and [https://github.com/abel-research/openlimb](https://github.com/abel-research/OpenLimb).
 
