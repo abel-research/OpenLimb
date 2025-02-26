@@ -23,9 +23,9 @@ The Machine Learning method Principal Component Analysis (PCA) has been used to 
 
 This dataset is intended to allow the research community to perform more statistically robust prosthetic biomechanics research, without the costs, inconvenience, and risk of putting our relatively small community of eligible research participants through medical imaging.
 
-The first version of openlimb is not fully statistically robust as it is based upon only eleven training datasets, who are representative only of individuals of a narrow ethnic diversity. However we are keen  to build further individuals into the dataset subject to completing data sharing agreements between our institutions, and are soon to share a more statistically robust update featuring an increased training sample.
+The latest OpenLimbTT Version-2025-03 is based upon 35 training datasets, of white European, white US, Hispanic, Native American and African American ethnicities. The publications below comment upon its limited statistical generality, but it does provide a preliminary representation of UK and a proportion of the US populations. 
 
-In the meantime you can download the preliminary model's mean shape, and virtual patient shapes covering 95% of training dataset variation in residual limb length and soft tissue bulbous-conical profile, as .stl files. These are normalised to the fractional intact length of the tibia, so should be scaled up to the desired intact tibia length.
+You can download the model's mean shape, and virtual patient shapes covering 95% of training dataset variation in residual limb length and soft tissue bulbous-conical profile, as .stl files. These are normalised to the fractional intact length of the tibia, so should be scaled up to the desired intact tibia length.
 
 For more detailed descriptions of the dataset and statistical testing behind it, please refer to the publication linked below.
 
