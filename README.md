@@ -47,7 +47,7 @@ Funding
 The research behind this dataset was funded by the following organisations:
 - the Royal Academy of Engineering (RAEng), UK (grant no. RF/130 (A Dickinson))
 - the European Union 'Eurostars' programme (grant no. 9396 (A Dickinson & J Steer))
-- the Engineering & Physical Sciences Research Council (EPSRC), UK (grant nos. EP/S02249X/1 (F Sunderland), EP/N509747/1 (J Bramley), EP/M508147/1 (J Steer))
+- the Engineering & Physical Sciences Research Council (EPSRC), UK (grant nos. EP/S02249X/1 Centre for Doctoral Training in Prosthetics & Orthotics (F Sunderland), EP/N509747/1 (J Bramley), EP/M508147/1 (J Steer))
 - the Alan Turing Institute, UK (grant no. EP/N510129/1 (A Dickinson, A Sobey))
 - the US National Institute of Justice (grant no. 2016-DN-BX-0144 (The Free Access Decedent Database))
 - the Royal British Legion (A Bull, Z Ding, D Toderita, D Henson)
