@@ -109,13 +109,13 @@ component[33] = random.choice(np.linspace(-0.25 , 0.33, 100))
 component = np.transpose(component)
 #%%
 
-pickled_model = pickle.load(open('/Users/fiona1/Documents/Biomedical Engineering/PhD/Statistical Shape Model/Size Normalised/PCA/Random/LR.pkl', 'rb'))
+pickled_model = pickle.load(open('LR.pkl', 'rb'))
 pickled_model.predict(component)
 
 newcomponent = pickled_model.predict(component)[0,:]
 
 
-X = np.load('/Users/fiona1/Documents/Biomedical Engineering/PhD/Statistical Shape Model/Size Normalised/PCA/Modes and Components/Components.npy')
+X = np.load('Components.npy')
 
 mode1 = X[0,:]
 mode2 = X[1,:]
