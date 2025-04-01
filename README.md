@@ -55,7 +55,7 @@ The research behind this dataset was funded by the following organisations:
 Ethical Approvals
 --------
 
-This secondary data analysis work was granted ethical approval by the University of Southampton's Ethics and Research Governance Office (ERGO 65748.A1)
+This secondary data analysis work was granted ethical approval by the University of Southampton's Ethics and Research Governance Office (ERGO 65748.A2)
 
 Original data collection work was granted ethical approval by the following committees:
 - Fraunhofer IPA Biomechanics Laboratory (2016_BLM_0009)
