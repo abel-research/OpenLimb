@@ -5,7 +5,7 @@ An Open-Source transtibial residual limb anatomic dataset
 **Data License:** [![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)](../main/DATA-LICENSE)
 **Code License:** [![License](https://img.shields.io/badge/license-MIT-blueviolet)](../main/CODE-LICENSE)
 
-There are over 5,000 new lower limb amputations every year in the UK, and a major challenge is rehabilitating people with amputations by enabling them to return to normal activities, using a prosthetic limb. However, the stump (or ‘residual limb’) is not initially suited for supporting the loads associated with standing or walking, and discomfort is common. The production of an appropriate patient-specific prosthetic socket is key, and today this is designed as a work of sculpture, by a highly experienced prosthetist. 
+There are over 5,000 new lower limb amputations every year in the UK, and a major challenge is rehabilitating people with amputations by enabling them to return to normal activities, using a prosthetic limb. However, the residual limb is not initially suited for supporting the loads associated with standing or walking, and discomfort is common. The production of an appropriate patient-specific prosthetic socket is key, and today this is designed as a work of sculpture, by a highly experienced prosthetist. 
 
 Many patient anatomy, surgery and disease factors can influence the socket design; however, few researchers have access to volumetric medical imaging data required to perform biomechanical analysis of socket designs. 
 
@@ -23,7 +23,7 @@ The Machine Learning method Principal Component Analysis (PCA) has been used to 
 
 This dataset is intended to allow the research community to perform more statistically robust prosthetic biomechanics research, without the costs, inconvenience, and risk of putting our relatively small community of eligible research participants through medical imaging.
 
-The latest OpenLimbTT Version-2025-03 is based upon 35 training datasets, 6 female and 29 male of a variety of ethnicities (13 White European/US, 10 Hispanic, 5 Native American, 1 African American, and 6 not recorded). The publications below comment upon its limited statistical generality, but it does provide a preliminary representation of UK and a proportion of the US populations. 
+The latest OpenLimbTT Version-2025-04 is based upon 33 training datasets, 4 female and 29 male of a variety of ethnicities (12 White European/US, 9 Hispanic, 5 Native American, 1 African American, and 6 not recorded). The publications below comment upon its limited statistical generality, but it does provide a preliminary representation of UK and a proportion of the US populations. 
 
 You can download the model's mean shape, and virtual patient shapes covering 95% of training dataset variation in residual limb length and soft tissue bulbous-conical profile, as .stl files. These are normalised to the fractional intact length of the tibia, so should be scaled up to the desired intact tibia length.
 
