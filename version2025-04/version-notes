@@ -1,5 +1,0 @@
-Version 2025-04
-Updated with:
-* increased training dataset size, from 11 to 33 individuals
-* higher proximal cut, to enable consideration of supracondylar suspended prosthetics
-* improved mesh registration giving oblique proximal cut in all datasets
