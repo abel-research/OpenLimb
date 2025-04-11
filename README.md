@@ -34,11 +34,11 @@ How to acknowledge
 
 OpenLimbTT has been presented at the 2023 International Society for Prosthetics & Orthotics World Congress, and a preprint of a full journal paper is currently under peer review. Please cite as:
 
-F.E. Sunderland, A.J. Sobey, J.L. Bramley, J.W. Steer, R. Al-Dirini, C.D. Metcalf, the OpenLimb Group, P.R. Worsley, A.S. Dickinson (2024), OpenLimbTT, a Transtibial Residual Limb Shape Model for Prosthetics Simulation and Design: creating a statistical anatomic model using sparse data. medRxiv 2024.11.27.24317622; doi: [https://doi.org/10.1101/2024.11.27.24317622](https://doi.org/10.1101/2024.11.27.24317622), and [https://github.com/abel-research/openlimb](https://github.com/abel-research/OpenLimb).
+F.E. Sunderland, A.J. Sobey, J.L. Bramley, J.W. Steer, R. Al-Dirini, C.D. Metcalf, the OpenLimb Group, P.R. Worsley, A.S. Dickinson (2024), OpenLimbTT, a Transtibial Residual Limb Shape Model for Prosthetics Simulation and Design: creating a statistical anatomic model using sparse data. medRxiv 2024.11.27.24317622; doi: [https://doi.org/10.1101/2024.11.27.24317622](https://doi.org/10.1101/2024.11.27.24317622), and [https://github.com/abel-research/openlimbTT](https://github.com/abel-research/OpenLimbTT).
 
 or:
 
-F.E. Sunderland, J.L. Bramley, R.M.A. Al-Dirini, J.W. Steer, P.R. Worsley & A.S. Dickinson (2023), OpenLimb: an Open Source Transtibial Residual Limb Model for Simulation and Design. Prosthetics & Orthotics International 47, p165; doi: [https://doi.org/10.1097/pxr.0000000000000240](https://doi.org/10.1097/pxr.0000000000000240) and [https://github.com/abel-research/openlimb](https://github.com/abel-research/OpenLimb).
+F.E. Sunderland, J.L. Bramley, R.M.A. Al-Dirini, J.W. Steer, P.R. Worsley & A.S. Dickinson (2023), OpenLimb: an Open Source Transtibial Residual Limb Model for Simulation and Design. Prosthetics & Orthotics International 47, p165; doi: [https://doi.org/10.1097/pxr.0000000000000240](https://doi.org/10.1097/pxr.0000000000000240) and [https://github.com/abel-research/openlimbTT](https://github.com/abel-research/OpenLimbTT).
 
 OpenLimb Group Membership
 --------
